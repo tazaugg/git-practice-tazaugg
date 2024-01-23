@@ -1,0 +1,36 @@
+   10  cd git-practice-esnt/
+   42  cd git-practice-tazaugg/
+   45  git status
+   46  git add file_1.txt file_2.txt
+   47  git commit -m "create new files"
+   51  cd git-practice-tazaugg/
+   56  git clone git@github.com:tazaugg/git-practice-emilycookbacon.git
+   57  git checkout -b feature-tazaugg
+   58  git log
+   59  git clone git@github.com:tazaugg/git-practice-emilycookbacon.git
+   61  cd git-practice-emilycookbacon/
+   62  git checkout -b feature-tazaugg
+   65  git add .
+   66  git commit -m "added new.txt"
+   67  git push origin feature-tazaugg 
+   68  git push origin feature-tazaugg 
+   76  cd git-practice-tazaugg/
+   81  git clone git@github.com:tazaugg/git-practice-dbj.git
+   83  cd git-practice-dbj/
+   84  git checkout -b feature-tazaugg
+   88  git add .
+   89  git commit -m "added new.txt"
+   90  git push origin feature-tazaugg 
+   94  cd git-practice-tazaugg/
+   96  git pull
+   98  git log --oneline > gitlog.txt
+   99  history | grep git > history.txt
+  100  history 0 | grep git > history.txt
+  101  git add gitlog.txt history.txt
+  102  git commit -m "Add git log and command history files"
+  103  git push origin main
+  104  git log --oneline -n 50 > gitlog.txt
+  105  cat gitlog.txt 
+  106  git log --oneline -n 50 > gitlog.txt
+  107  cat gitlog.txt 
+  109  history | grep git > history.txt

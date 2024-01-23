@@ -1,3 +1,4 @@
+63cd64d Add git log and command history files
 833cc5f Merge pull request #1 from spencer-scw/new-feature-spencer-scw
 5690929 switched branches
 4fd9b0b Merge branch 'features' something
