@@ -34,3 +34,78 @@
   106  git log --oneline -n 50 > gitlog.txt
   107  cat gitlog.txt 
   109  history | grep git > history.txt
+  111  git push origin main
+  113  cd Classes/Stat\ 386/git-practice-t
+  114  cd Classes/Stat\ 386/git-practice-tazaugg/
+  115  git add gitlog.txt history.txt
+  116  git commit -m "Update gitlog.txt and history.txt for autograder testing"
+  117  git push origin main
+  118  git log --oneline > gitlog.txt
+  119  cat gitlog.txt 
+  120  history | grep git > history.txt
+  122  git add gitlog.txt history.txt
+  123  git push origin main
+  124  git status
+  125  git status
+  126  git status
+  127  git status
+  128  git status
+  129  git status
+  130  git merge
+  131  git merge
+  132  git merge
+  133  git merge
+  134  git merge
+  135  git merge
+  136  git init
+  137  git init
+  138  git init
+  139  git init
+  140  git init
+  141  git branch
+  142  git branch
+  143  git branch
+  144  git branch
+  145  git branch
+  146  git log --oneline > gitlog.txt
+  147  history | grep git > history.txt
+  148  git add gitlog.txt history.txt
+  149  git push origin main
+  151  history | grep git > history.txt
+  152  git log --oneline > gitlog.txt
+  153  git touch ugh.txt
+  155  git status
+  156  git add ugh.txt 
+  157  git push origin main
+  159  git status
+  160  git push origin main
+  161  git add ugh.txt 
+  163  git status
+  164  git add ugh.txt 
+  165  git push origin main
+  167  git status
+  168  git push origin main
+  169  git branch stupid
+  170  git checkout stupid
+  171  git checkout -b features
+  172  git log --oneline --graph --all
+  174  git add ugh.txt 
+  175  git commit -m "file"
+  176  git checkout main
+  177  git branch
+  178  git checkout main
+  179  git commit -m "why"
+  181  git checkout main
+  182  git merge ugh
+  183  git merge stupid
+  185  git branch
+  186  git branch -d stupid
+  187  git branch -b features
+  188  git checkout main
+  190  git commit
+  191  git commit -a
+  192  git checkout main
+  193  git branch -b features
+  194  git push origin main
+  196  git log --oneline -n 5 > gitlog.txt
+  197  history | grep git > history.txt

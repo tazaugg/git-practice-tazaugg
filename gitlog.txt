@@ -1,14 +1,5 @@
+595338f Update gitlog.txt and history.txt for autograder testing
 63cd64d Add git log and command history files
 833cc5f Merge pull request #1 from spencer-scw/new-feature-spencer-scw
 5690929 switched branches
 4fd9b0b Merge branch 'features' something
-7139b7e Update content in new_features.txt on features branch
-bad6862 Merge branch 'features' message
-d14b14c add a line to file_1.txt
-2a928d1 add content to new_features.txt
-42953e5 add empty file
-69ae918 Add .gitignore file
-3d12bf4 add README file
-2d01902 add content to file_2.txt
-b6319cd add content to file_1.txt
-083bc7d create new files
